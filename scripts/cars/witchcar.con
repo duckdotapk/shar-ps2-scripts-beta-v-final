@@ -1,6 +1,6 @@
 // Witchcar (Halloween Level)
 
-SetMass(170.0);
+SetMass(250.0);
 
 SetGasScale(6.0);
 SetSlipGasScale(7.0);
@@ -30,7 +30,7 @@ SetSuspensionLimit(0.6);
 SetSpringK(0.4);
 SetDamperC(0.2);
 
-SetHitPoints(0.5);
+SetHitPoints(0.1);
 
 SetWeebleOffset(-0.5);
 

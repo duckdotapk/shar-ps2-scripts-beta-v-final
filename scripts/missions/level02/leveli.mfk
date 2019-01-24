@@ -138,7 +138,7 @@ SetBonusMissionDialoguePos("bm1","bm1_bart_talk","bm1_grampa_sd","bm1_carstart")
 	CreateTrafficGroup( 0 );
 		AddTrafficModel( "taxiA",2 );
 		AddTrafficModel( "sedanB",1 );
-		AddTrafficModel( "sportsA",1,1 );
+		AddTrafficModel( "sportsA",1 );
 		AddTrafficModel( "pizza",1,1 );
 	CloseTrafficGroup( );
 

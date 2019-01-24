@@ -179,15 +179,18 @@ AddStage(1);
 	CloseCondition();
 CloseStage();
 
-AddStage("final");
-	SetStageMessageIndex(269);
-	SetHUDIcon("simpsons");
-	AddObjective("interior");
-		SetDestination("SimpsonsHouse", "simp_mission_doorstar");
+//AddStage(1);
+//	SetStageMessageIndex(269);
+//	SetHUDIcon("simpsons");
+//	AddObjective("interior");
+//		SetDestination("SimpsonsHouse", "simp_mission_doorstar");
+//	CloseObjective();
+//CloseStage();
+
+AddStage("final"); 
+	AddObjective("timer");
+		SetDurationTime(0.5);
 	CloseObjective();
-//	AddStageTime(0);
-//	AddCondition("timeout");
-//	CloseCondition();
 CloseStage();
 
 CloseMission();

@@ -34,3 +34,5 @@ SetDamperC(0.25);
 SetSuspensionYOffset(0.0);
 
 SetHitPoints(0.7);
+
+SetShadowAdjustments(-0.3, 0.0, -0.3, 0.0, -0.3, 0.0, -0.3, -0.1 );

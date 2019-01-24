@@ -21,6 +21,7 @@ SetAnimCamMulticontName( "mission5cam" );
 //CloseStage();
 
 AddStage(0);
+	SetMaxTraffic(5);
 	SetStageMessageIndex(60);
 	SetHUDIcon( "snake" );
 	AddObjective("talkto", "neither");

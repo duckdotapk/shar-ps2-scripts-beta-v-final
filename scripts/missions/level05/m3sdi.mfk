@@ -11,6 +11,7 @@ SetAnimatedCameraName( "mission3camShape" );
 SetAnimCamMulticontName( "mission3cam" );
 
 AddStage(0);
+	SetMaxTraffic(5);
 	SetStageMessageIndex(72);
 	SetHUDIcon( "drhibert" );
 	AddObjective("talkto");

@@ -33,9 +33,9 @@ AddStageVehicle("honor_v","sr3_AI_carstart2","evade","Missions\level01\sr3_1st.c
 SetStageAIRaceCatchupParams("honor_v", 80, 0.6, 1.0, 1.75); 
 AddStageVehicle("schoolbu","sr3_AI_carstart3","target","Missions\level01\sr3_4th.con");
 SetStageAIRaceCatchupParams("schoolbu", 80, 0.6, 0.9, 1.25); 
-AddStageVehicle("minivanA","sr3_AI_carstart1","race","Missions\level01\sr3_1st.con");
+AddStageVehicle("minivanA","sr3_AI_carstart1","race","Missions\level01\sr3_2nd.con");
 SetStageAIRaceCatchupParams("minivanA", 80, 0.6, 0.9, 1.25); 
-//AddStageVehicle("pickupA","sr3_AI_carstart4","target`","Missions\level01\sr3_1st.con");
+//AddStageVehicle("pickupA","sr3_AI_carstart4","target`","Missions\level01\sr3_2nd.con");
 //SetStageAIRaceCatchupParams("pickupA", 80, 0.6, 0.9, 1.25); 
 
 AddStageWaypoint( "sr3_navpoint1" );

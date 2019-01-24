@@ -1,10 +1,10 @@
 // AI
 
 SetMass(1500.0);
-SetGasScale(5.25);
-SetSlipGasScale(6.0);
+SetGasScale(7.5);
+SetSlipGasScale(7.5);
 SetBrakeScale(6.0);
-SetTopSpeedKmh(120.0);
+SetTopSpeedKmh(145.0);
 SetMaxWheelTurnAngle(35.0);
 SetMaxWheelTurnAngle(35.0);
 SetHighSpeedSteeringDrop(0.3); // was 1.0

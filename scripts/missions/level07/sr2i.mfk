@@ -4,7 +4,7 @@ SelectMission("sr2");
 
 
 SetMissionResetPlayerInCar("sr2_carstart");
-SetDynaLoadData("l7z3.p3d;l7r2.p3d;l7z2.p3d;");
+SetDynaLoadData("l7z3.p3d;l7r2.p3d;l7r3.p3d;");
 
 UsePedGroup(2);
 

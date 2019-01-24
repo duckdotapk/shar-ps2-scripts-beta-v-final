@@ -30,7 +30,7 @@ SetSuspensionLimit(0.75);
 SetSpringK(0.45);
 SetDamperC(0.2);
 
-SetHitPoints(1.0);
+SetHitPoints(0.6);
 
 SetWeebleOffset(-0.7);
 

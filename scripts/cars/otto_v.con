@@ -12,7 +12,7 @@ SetTopSpeedKmh(130.0);
 SetMaxWheelTurnAngle(25.0);
 SetHighSpeedSteeringDrop(0.26);
 
-SetTireGrip(1.93);
+SetTireGrip(1.97);
 
 SetNormalSteering(65.0);
 
@@ -26,7 +26,7 @@ SetCMOffsetX(0.0);
 SetCMOffsetY(-0.05);
 SetCMOffsetZ(0.57);
 
-SetSuspensionLimit(0.8);
+SetSuspensionLimit(0.7);
 SetSpringK(0.35);
 SetDamperC(0.2);
 
@@ -50,6 +50,6 @@ SetHasDoors(1);
 
 SetShadowAdjustments(-0.05, 0.7, -0.05, 0.0, -0.05, 0.0, -0.05, -0.6 );
 
-SetShininess (0.1);
+SetShininess(0.1);
 
 SetGamblingOdds(3.0);

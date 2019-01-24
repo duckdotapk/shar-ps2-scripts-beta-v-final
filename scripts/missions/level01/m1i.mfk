@@ -1,6 +1,6 @@
 SelectMission("m1");
 
-SetMissionResetPlayerOutCar("homer_start_alt","level1_carstart");
+SetMissionResetPlayerOutCar("level1_homer_start","level1_carstart");
 SetDynaLoadData("l1z1.p3d;l1r1.p3d;l1r7.p3d;");
 //SetAnimatedCameraName( "cameraShape1" );
 //SetAnimCamMulticontName( "MasterController" );

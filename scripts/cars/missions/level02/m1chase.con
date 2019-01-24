@@ -29,3 +29,5 @@ SetSuspensionYOffset(0.0);
 SetHitPoints(50.0);
 
 SetCharacterScale(0.9);
+
+SetShadowAdjustments(-0.3, -0.2, -0.3, 0.0, -0.3, 0.0, -0.3, 0.0 );

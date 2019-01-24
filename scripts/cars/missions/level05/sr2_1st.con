@@ -1,4 +1,4 @@
-// AI Bart Ferrini
+// AI Bart Ferrini  bart_v
 
 SetMass(1500.0);
 
@@ -33,3 +33,5 @@ SetDamperC(0.3);
 SetSuspensionYOffset(0.0);
 
 SetHitPoints(15.0);
+
+SetShadowAdjustments(-0.3, 0.0, -0.3, 0.0, -0.3, 0.0, -0.3, 0.0 );

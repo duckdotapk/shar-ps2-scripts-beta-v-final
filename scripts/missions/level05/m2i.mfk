@@ -17,6 +17,7 @@ AddStage(0);
 	SetHUDIcon( "hospital" );
 	SetStageTime(45);
 	AddObjective("goto");
+		RemoveNPC( "louie" );
 		AddStageVehicle("cLimo","m2_limo1","NULL","Missions\level05\M2evade.con", "louie");
 		SetDestination("m2_limostart", "carsphere");
 	CloseObjective();
@@ -81,7 +82,7 @@ AddStage(0);
 	ShowStageComplete();
 CloseStage();
 
-AddStage(final);
+AddStage(1);
 	SetStageMessageIndex(71);
 	SetHUDIcon( "hospital" );
 	SetMaxTraffic(5);
@@ -94,6 +95,12 @@ AddStage(final);
 	AddCondition("timeout");
 		//SetHitNRun();
 	CloseCondition();
+CloseStage();
+
+AddStage("final"); 
+	AddObjective("timer");
+		SetDurationTime(0.5);
+	CloseObjective();
 CloseStage();
 
 CloseMission();

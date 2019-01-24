@@ -1,4 +1,4 @@
-// AI
+// AI  ship
 
 SetMass(1500.0);
 SetGasScale(12.0);

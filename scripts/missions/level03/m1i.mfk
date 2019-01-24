@@ -129,6 +129,7 @@ AddStage("final");
 		AddAmbientPcAnimation( "none" );
 		SetCamBestSide("m1_bestside");
 		SetDialogueInfo("lisa","cbg","mylar",0); //needs to be re-piped
+		AddNPC("cbg", "level3_lisa_start");
 	CloseObjective();
 CloseStage();
 

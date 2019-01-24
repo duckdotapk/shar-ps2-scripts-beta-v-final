@@ -1,7 +1,7 @@
 SelectMission("m3");
 
 SetMissionResetPlayerOutCar("bart_krustytalk","m3_carstart");
-SetDynaLoadData("l6z3.p3d;l6r2.p3d;l6z2.p3d;l6r3.p3d;");
+SetDynaLoadData("l6z3.p3d;l6r2.p3d;l6r3.p3d;");
 UsePedGroup(5);
 
 //AddStage(0);

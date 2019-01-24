@@ -45,6 +45,9 @@ AddStage(0);
 		SetCondMinHealth( 0.0 );
 		SetCondTargetVehicle( "current" );
 	CloseCondition();
+	AddCondition("outofvehicle");
+		SetCondTime( 10000 );
+	CloseCondition();
 	ShowStageComplete();
 CloseStage();
 

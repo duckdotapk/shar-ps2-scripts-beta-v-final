@@ -1,7 +1,7 @@
 SelectMission("m5");
 
 SetMissionResetPlayerInCar("m5_wiggumcar_sd");
-SetDynaLoadData("l3r2.p3d;l3z2.p3d;l3z3.p3d;");
+SetDynaLoadData("l3r2.p3d;l3z2.p3d;l3z3.p3d;l3r1.p3d;");
 InitLevelPlayerVehicle("wiggu_v","m5_wiggumcar_sd","OTHER");
 
 SetNumValidFailureHints( 5 );

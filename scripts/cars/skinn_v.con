@@ -14,9 +14,9 @@ SetBrakeScale(8.0);
 SetTopSpeedKmh(130.0);
 
 SetMaxWheelTurnAngle(30.0);
-SetHighSpeedSteeringDrop(0.255);
+SetHighSpeedSteeringDrop(0.25);
 
-SetTireGrip(2.45);
+SetTireGrip(2.35);
 
 SetNormalSteering(75.0);
 
@@ -27,11 +27,11 @@ SetSlipSteeringNoEBrake(50.0);
 SetSlipEffectNoEBrake(0.17);
 
 SetCMOffsetX(0.0);
-SetCMOffsetY(0.1);
+SetCMOffsetY(-0.05);
 SetCMOffsetZ(0.35);
 
 SetSuspensionLimit(0.6);
-SetSpringK(0.4);
+SetSpringK(0.35);
 SetDamperC(0.2);
 
 SetSuspensionYOffset(-0.1);

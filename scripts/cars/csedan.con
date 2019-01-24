@@ -23,7 +23,7 @@ SetSlipSteeringNoEBrake(50.0);
 SetSlipEffectNoEBrake(0.2);
 
 SetCMOffsetX(0.0);
-SetCMOffsetY(0.1);
+SetCMOffsetY(0.0);
 SetCMOffsetZ(0.3);
 
 SetSuspensionLimit(0.65);

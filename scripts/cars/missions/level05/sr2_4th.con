@@ -1,4 +1,4 @@
-// AI Quimby
+// AI Quimby  votetruc
 
 SetMass(1500.0);
 
@@ -33,3 +33,5 @@ SetDamperC(0.4);
 SetSuspensionYOffset(0.0);
 
 SetHitPoints(7.0);
+
+SetShadowAdjustments(0.0, 0.3, 0.0, 0.4, 0.0, 0.6, 0.0, -0.9);

@@ -3,7 +3,7 @@ SelectMission("sr3");
 //Script set up for multipkle laps
 
 SetMissionResetPlayerInCar("sr3_carstart");
-SetDynaLoadData("l4r7.p3d;l4z1.p3d;l4r1.p3d;l4z2.p3d");
+SetDynaLoadData("l4r7.p3d;l4z1.p3d;l4r1.p3d;l4z2.p3d;");
 
 UsePedGroup(6);
 

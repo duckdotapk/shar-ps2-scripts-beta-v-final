@@ -1,4 +1,4 @@
-// AI
+// AI  apu_v
 
 SetMass(1500.0);
 SetGasScale(6.0);
@@ -26,3 +26,5 @@ SetDamperC(0.3);
 SetSuspensionYOffset(0.0);
 
 SetHitPoints(7.0);
+
+SetShadowAdjustments(-0.3, 0.0, -0.3, 0.0, -0.3, 0.0, -0.3, 0.0 );

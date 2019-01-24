@@ -1,13 +1,14 @@
-// AI  compactA
+// Easy to Destroy
+// Global AI vehicle file
 
 SetMass(1500.0);
-SetGasScale(7.5);
-SetSlipGasScale(8.5);
-SetBrakeScale(6.0);
-SetTopSpeedKmh(145.0);
+SetGasScale(5.0);
+SetSlipGasScale(7.0);
+SetBrakeScale(10.0);
+SetTopSpeedKmh(120.0);
 SetMaxWheelTurnAngle(35.0);
 SetHighSpeedSteeringDrop(0.3); // was 1.0
-SetTireGrip(60.0);
+SetTireGrip(30.0);
 SetNormalSteering(110.0);
 SetSlipSteering(65.0);
 SetEBrakeEffect(0.35); // ,3?
@@ -25,6 +26,6 @@ SetDamperC(0.3);
 
 SetSuspensionYOffset(0.0);
 
-SetHitPoints(7.0);
+SetHitPoints(2.0);
 
-SetShadowAdjustments(-0.3, -0.4, -0.3, 0.0, -0.3, 0.0, -0.3, 0.5);
+SetShadowAdjustments(-0.1, 0.0, -0.1, 0.0, -0.1, 0.0, -0.1, 0.6);

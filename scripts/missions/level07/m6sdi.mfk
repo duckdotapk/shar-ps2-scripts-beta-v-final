@@ -11,7 +11,7 @@ SetAnimatedCameraName( "mission2camShape" );
 SetAnimCamMulticontName( "mission2cam" );
 
 AddStage(5);
-	//SetMaxTraffic(5);
+	SetMaxTraffic(5);
 	SetStageMessageIndex(60);
 	SetHUDIcon("snake");
 	AddObjective("talkto");

@@ -6,7 +6,7 @@ SetAnimatedCameraName( "race1camShape" );
 SetAnimCamMulticontName( "race1cam" );
 
 SetMissionResetPlayerInCar("sr1_carstart");
-SetDynaLoadData("l4z4.p3d;l4r4a.p3d;l4r4b.p3d;");
+SetDynaLoadData("l4z4.p3d;l4r4a.p3d;l4r4b.p3d;l4r3.p3d;");
 
 UsePedGroup(4);
 

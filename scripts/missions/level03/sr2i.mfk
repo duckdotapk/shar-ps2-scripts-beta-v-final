@@ -6,7 +6,7 @@ SetAnimatedCameraName( "race2camShape" );
 SetAnimCamMulticontName( "race2cam" );
 
 SetMissionResetPlayerInCar("sr2_carstart");
-SetDynaLoadData("l3z1.p3d;l3r1.p3d;l3r5.p3d;l3r5_dam.p3d;");
+SetDynaLoadData("l3z1.p3d;l3r1.p3d;l3r5.p3d;l3z2.p3d;");
 
 UsePedGroup(1);
 

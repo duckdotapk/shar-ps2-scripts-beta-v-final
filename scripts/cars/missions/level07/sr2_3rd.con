@@ -1,4 +1,4 @@
-// AI
+// AI  coffin
 
 SetMass(1500.0);
 SetGasScale(10.0);
@@ -26,3 +26,5 @@ SetDamperC(0.3);
 SetSuspensionYOffset(0.0);
 
 SetHitPoints(15.0);
+
+SetShadowAdjustments(-0.7, -0.8, -0.7, 0.0, -0.7, 0.0, -0.7, 1.05 );

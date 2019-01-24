@@ -21,6 +21,7 @@ SetAnimCamMulticontName( "mission2cam" );
 //CloseStage();
 
 AddStage(0);
+	SetMaxTraffic(5);
 	SetHUDIcon( "school" );
 	SetStageMessageIndex(1);
 		AddObjective( "interior" );

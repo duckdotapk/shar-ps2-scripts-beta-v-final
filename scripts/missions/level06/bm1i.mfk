@@ -59,7 +59,7 @@ AddStage(0);
 	SetStageMessageIndex(247);
 	SetHUDIcon( "bowlera" );
 	AddObjective("goto");
-		AddStageVehicle("cMilk","bm1_milk","NULL","Missions\level06\BM1dest.con");
+		AddStageVehicle("cMilk","bm1_milk","NULL","Missions\level06\BM1dest2.con");
 		SetDestination( "bm_bowlerama", "carsphere");
 		//SetCollectibleEffect("wrench_collect");
 	CloseObjective();

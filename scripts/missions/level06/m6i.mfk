@@ -63,7 +63,7 @@ AddStage(0); // destroy the laser stands
 	CloseObjective();
 	SetStageTime(100);
 	AddCondition("timeout");
-		SetHitNRun();
+		//SetHitNRun();
 	CloseCondition();
 	AddCondition("outofvehicle");
 		SetCondTime( 10000 );
@@ -83,6 +83,17 @@ AddStage(0);
 		SetDestination( "m6_krustylu", "carsphere");
 		SetCollectibleEffect("wrench_collect");
 	CloseObjective();
+	SetStageTime(50);
+	AddCondition("timeout");
+		//SetHitNRun();
+	CloseCondition();
+		AddCondition("outofvehicle");
+		SetCondTime( 10000 );
+	CloseCondition();
+	AddCondition( "damage" );
+		SetCondMinHealth( 0.0 );
+		SetCondTargetVehicle( "current" );
+	CloseCondition();
 CloseStage();
 
 AddStage(5);
